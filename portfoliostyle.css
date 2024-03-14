@@ -1,0 +1,116 @@
+*{  
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+img{
+    float: right;
+    border:0;width:88px;height:31px
+}
+.container{
+    padding: 30px;
+    background-color: white;  
+}
+
+.block-four,.block-three,footer{
+    margin-top:20px;
+}
+
+.topbanner{
+    color: aliceblue;
+    background-color: black;
+    padding: 20px;    
+}
+
+.topbanner__name{
+    font-size: 50px;
+    margin-left:10px;
+}
+
+.topbanner__role{
+    font-size: 30px;
+    margin-left:10px;
+    margin-bottom: 10px;
+}
+
+.topbanner__contact-button, .contact-form__submit-button{
+    background-color: orangered;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: aliceblue;
+    margin-left: 10px;
+    border: none;
+}
+
+.aboutme, .aboutme__para{
+    margin-top: 20px;
+    
+    text-align: justify;
+    
+}
+
+.block-three ul, .block-four ul{
+   list-style: none;
+}
+
+.block-three__myinterests{
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;  
+    background-color: blueviolet;
+}
+
+.block-four__myprojects{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;    
+    background-color: orangered;  
+}
+.block-three__myinterest__title, .block-four__myprojects__title{
+    margin-bottom: 20px;
+}
+.block-four__myprojects__second-title{
+    margin-top: 20px;
+}
+.contact-form{
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact-form__name-input,.contact-form__email-input,.contact-form__msg-textarea{
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-bottom: solid orangered 2px;
+    margin-left: 20px;
+}
+.contact-form__msg-textarea{
+    border: solid orangered 1px;
+}
+
+.block-three{  
+    display: inline-block;
+    vertical-align: top;
+}
+
+.block-four{
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer a{
+    text-decoration: none;
+    color: aqua;
+}
+
+footer{
+    color: aliceblue;
+    background-color: black;
+    padding: 5px;
+    padding: 15px;
+    
+}
